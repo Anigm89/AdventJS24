@@ -1,0 +1,9 @@
+function prepareGifts(gifts) {
+  const ordenados = gifts.sort(function (a, b) {
+    return a - b;
+  });
+  let result = ordenados.filter((item, index) => {
+    return ordenados.indexOf(item) === index;
+  });
+  return result;
+}
