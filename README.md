@@ -85,16 +85,4 @@ Los espacios en los lados del árbol se representan con guiones bajos _.
 Todos los árboles tienen un tronco de dos líneas, representado por el carácter #.
 El árbol siempre debe tener la misma longitud en cada lado.
 Debe asegurarse de que el árbol tenga la forma correcta utilizando saltos de línea \n para cada línea.
-Ejemplos:
 
-const tree = createXmasTree(5, '*')
-console.log(tree)
-/*
-____*____
-___***___
-__*****__
-_*******_
-*********
-____#____
-____#____
-*/
