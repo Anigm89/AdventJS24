@@ -74,3 +74,27 @@ organizeInventory(inventory)
 //     racket: 4
 //   }
 
+
+## Reto 4: árbol de navidad
+Ya es hora de poner el árbol de Navidad en casa! 🎄 Pero este año queremos que sea especial. Vamos a crear una función que reciba la altura del árbol (un entero positivo entre 1 y 100) y un carácter especial para decorarlo.
+
+La función debe devolver una cadena que represente el árbol de Navidad, construida de la siguiente manera:
+
+El árbol está formado por triángulos de caracteres especiales.
+Los espacios en los lados del árbol se representan con guiones bajos _.
+Todos los árboles tienen un tronco de dos líneas, representado por el carácter #.
+El árbol siempre debe tener la misma longitud en cada lado.
+Debe asegurarse de que el árbol tenga la forma correcta utilizando saltos de línea \n para cada línea.
+Ejemplos:
+
+const tree = createXmasTree(5, '*')
+console.log(tree)
+/*
+____*____
+___***___
+__*****__
+_*******_
+*********
+____#____
+____#____
+*/
