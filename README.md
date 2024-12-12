@@ -86,3 +86,24 @@ Todos los árboles tienen un tronco de dos líneas, representado por el carácte
 El árbol siempre debe tener la misma longitud en cada lado.
 Debe asegurarse de que el árbol tenga la forma correcta utilizando saltos de línea \n para cada línea.
 
+
+## Reto 5: Emparejando botas
+
+Los elfos 🧝🧝‍♂️ de Santa Claus han encontrado un montón de botas mágicas desordenadas en el taller. Cada bota se describe por dos valores:
+
+type indica si es una bota izquierda (I) o derecha (R).
+size indica el tamaño de la bota.
+Tu tarea es ayudar a los elfos a emparejar todas las botas del mismo tamaño que tengan izquierda y derecha. Para ello, debes devolver una lista con los pares disponibles después de emparejar las botas.
+
+¡Ten en cuenta que puedes tener más de una zapatilla emparejada del mismo tamaño!
+
+const shoes = [
+  { type: 'I', size: 38 },
+  { type: 'R', size: 38 },
+  { type: 'R', size: 42 },
+  { type: 'I', size: 41 },
+  { type: 'I', size: 42 }
+]
+
+organizeShoes(shoes) // [38, 42]
+
